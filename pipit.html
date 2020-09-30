@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css".css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Domevent">
+    <title>Domevent Pipit</title>
+</head>
+<body>
+
+    <div class="modalMenu"id='modalMenu'>
+
+        <span class="material-icons closeIcon"
+            onclick="closeModal()"
+        >close</span>
+
+        <a href="#home" onclick="closeModal()">home</a>
+        <a href="#about" onclick="closeModal()">about</a>
+        <a href="#contact" onclick="closeModal()">Contact</a>
+        <a href="#showcase" onclick="closeModal()">Showcase</a> 
+
+    </div>
+
+
+    <nav class="navbar">
+
+        <h3 class="brand">JSYFA</h3>
+        <span class="material-icons menuIcon" onclick="showModal()">menu_open</span>
+
+    </nav>
+<main class="container">
+
+    <section class="home" id="home">
+
+<img src="./foto_dua.jfif" alt="foto saya sendiri"
+class="homeimage">        
+
+<h1 class="homeText">WEB PROFILE <br /> PIPIT </h1>
+    </section>
+
+    <section class="about" id="about">
+        <span class="alertabout">selamat datang di web sederhana saya ini..</span>
+        <h1 class="title">about</h1>
+    </section>
+
+    <section class="showcase" id="showcase">
+        <span class="material-icons rotateIcon">autorenew</span>
+        <h1 class="title">Showcase</h1>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="title">contact</h1>
+    </section>
+
+
+</main>
+
+    <script src="main.js"></script>
+</body>
+</html>
